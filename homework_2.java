@@ -43,7 +43,7 @@ class Reader {
         
     }
 
-    public static int returnBook(int b, int count_return_books) {
+    int returnBook(int b, int count_return_books) {
         int allBooksRet = count_return_books - b;
         return allBooksRet;
     }
